@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>larissa</title>
+        <link rel= "icon" href="https://cdn-icons-png.flaticon.com/512/4775/4775505.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/74290d9b92.js" crossorigin="anonymous"></script>
+        <style>
+            header {
+                background-image: linear-gradient(to bottom right, #FD7A9A, #FFD0DC);
+                margin-bottom: 3%;
+            }
+            h1 {
+                display: inline;
+                font-size: 170%;
+                color: #FFF;
+            }
+            #formu {
+                margin-left: 3%;
+                margin-right: 15%;
+            }
+            main {
+                margin-left: 5%;
+            }
+            aside {
+                margin-left: 15%;
+                margin-top: 10%;
+            }
+            figure {
+                text-align: center;
+                margin-left: -5%;
+                border-bottom-style: solid;
+                border-bottom-color: #323232;
+                border-bottom-width: 1px;
+            }
+            table {
+                text-align: center;
+                width: 50%;
+            }
+            form {
+                margin-top: 1.75%;
+            }
+            input[type=submit] {
+                background-color: #FD7A9A;
+                border-radius: 5px;
+            }
+            input[type=text], input[type=email] {
+                border-radius: 5px;
+            }
+            .fa {
+                text-decoration: none;
+                padding: 5%;
+                color: #FD7A9A;
+               }
+                #social {
+                text-align: center;
+                border-bottom-style: solid;
+                border-bottom-color: #323232;
+                border-bottom-width: 1px;
+            }
+            .parent {
+               flex-direction: column;
+               justify-content: center;
+            }
+            .parent > input {
+               text-indent: 20%;
+            }
+            .fa-circle-check {
+                color: #FD7A9A;
+            }
+                @media only screen and (min-width: 992px) {
+        body {
+            font-family: Arial;
+            font-size: 105%;
+        }
+                        #meu {
+                font-size: 150%;
+            }
+                            #icon {
+                width: 15%;
+            }
+                        #flex-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #flex-container > div {
+                flex: 25%;
+                padding: 2%;
+            }
+            #link {
+                width: 50%;
+            }
+            a {
+                font-size: 150%;
+                margin-left: 10%;
+            }
+            .parent > i {
+               margin-left: -4.5%;
+               margin-top: -4.75%;
+               position: absolute;
+            }
+            ul {
+                margin-left: -5%;
+            }
+        }
+        @media only screen and (max-width: 430px) {
+            body {
+            font-family: Arial;
+            font-size: 80%;
+        }
+                        #meu {
+                font-size: 120%;
+            }
+                            #icon {
+                width: 20%;
+            }
+                        #flex-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #flex-container > div {
+                flex: 25%;
+                padding: 2%;
+            }
+            #link {
+                width: 70%;
+            }
+            a {
+                font-size: 80%;
+                margin-left: 5%;
+            }
+            .parent > i {
+               margin-left: -3.75%;
+               margin-top: -3.5%;
+               position: absolute;
+            }
+            form {
+                width: 30px;
+            }
+            ul {
+                margin-left: -15%;
+            }
+        }
+        @media only screen and (min-width: 431px) and (max-width: 599px) {
+            body {
+            font-family: Arial;
+            font-size: 80%;
+        }
+                        #meu {
+                font-size: 120%;
+            }
+                            #icon {
+                width: 20%;
+            }
+                        #flex-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #flex-container > div {
+                flex: 25%;
+                padding: 2%;
+            }
+            #link {
+                width: 70%;
+                margin-left: -10%;
+            }
+            a {
+                font-size: 80%;
+                margin-left: 5%;
+            }
+            .parent > i {
+               margin-left: -3.75%;
+               margin-top: -3.5%;
+               position: absolute;
+            }
+            form {
+                width: 30px;
+            }
+            ul {
+                margin-left: -15%;
+            }
+        }
+        @media only screen and (min-width: 600px) and (max-width: 819px) {
+            body {
+            font-family: Arial;
+            font-size: 80%;
+        }
+                        #meu {
+                font-size: 120%;
+            }
+                            #icon {
+                width: 20%;
+            }
+                        #flex-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #flex-container > div {
+                flex: 25%;
+                padding: 2%;
+            }
+            #link {
+                width: 70%;
+                margin-left: 15%;
+            }
+            a {
+                font-size: 80%;
+                margin-left: 5%;
+            }
+            .parent > i {
+               margin-left: -3.5%;
+               margin-top: -3.25%;
+               position: absolute;
+            }
+            form {
+                width: 30px;
+            }
+            ul {
+                margin-left: -15%;
+            }
+        }
+        @media only screen and (min-width: 820px) and (max-width: 991px) {
+            body {
+            font-family: Arial;
+            font-size: 80%;
+        }
+                        #meu {
+                font-size: 120%;
+            }
+                            #icon {
+                width: 20%;
+            }
+                        #flex-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #flex-container > div {
+                flex: 25%;
+                padding: 2%;
+            }
+            #link {
+                width: 70%;
+                margin-left: -10%;
+            }
+            a {
+                font-size: 80%;
+                margin-left: 10%;
+            }
+            .parent > i {
+               margin-left: -4.5%;
+               margin-top: -4.25%;
+               position: absolute;
+            }
+            form {
+                width: 30px;
+            }
+            ul {
+                margin-left: -15%;
+            }
+        }
+         
+        </style>
+<body>
+    <header role="banner">
+     <h1>Larissa</h1>
+    </header>
+    <div id="flex-container">
+    <div>
+    <main>
+    <figure>
+        <img id="icon" src="https://cdn-icons-png.flaticon.com/512/4775/4775505.png" alt="icon">
+        <b id="meu">Informações</b>
+    </figure>
+    <p>
+        19 anos. 25.03. ISFJ. Cursando Ciência da Computação, primeiro semestre.
+    </p>
+       <ul>
+           <li>
+               Experiência em robótica.
+           </li>
+           <li>
+               Interesse em desenvolvimento de jogos e software.
+           </li>
+           <li>
+               Quero aprender: Java, Go, Elixir, Python, Scala, Perl.
+           </li>
+           <li>
+               Escritora no tempo livre. Estou escrevendo uma história no momento.
+           </li>
+           <li>
+               Gosto também de design gráfico.
+           </li>
+       </ul>
+       </main>
+       </div>
+       <div>
+       <aside>
+           <table border="2">
+               <tr>
+                   <td>HTML</td>
+                   <td>CSS</td>
+                   <td>C</td>
+               </tr>
+               <tr>
+                   <td><i class="fa-solid fa-circle-check"></i></td>
+                   <td><i class="fa-solid fa-circle-check"></i></td>
+                   <td>No passado.</td>
+               </tr>
+           </table>
+           </aside>
+       </div>
+       <div id="formu">
+           <b id="cont">Contato</b><br>
+           <form action="/resultado.php">
+               <label for="nome">Nome</label><br>
+                <section class="parent">
+               <i class="fa fa-user"></i>
+               <input type="text" id="nome" name="nome"> <br><br>
+               </section>
+               <label for="email">E-mail</label><br>
+                <section class="parent">
+               <i class="fa fa-envelope"></i>
+               <input type="email" id="email" name="email"> <br><br>
+               </section>
+               <input type="submit" value="Enviar">
+           </form>
+           </div>
+           <div>
+               <section id="link">
+           <p id=social>Me encontre nas redes sociais:</p>
+       <a href="instagram.com/larissappc" class="fa fa-instagram"></a>
+       <a href="github.com/pipocore" class="fa fa-github"></a>
+       <a href="mailto:larippc@gmail.com" class="fa fa-envelope"></a>
+       </section>
+       </div>
+       </div>
+</body>
+</html>
